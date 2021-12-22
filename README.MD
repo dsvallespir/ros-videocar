@@ -2,9 +2,9 @@
 
 #### Introducción 🚀
 
-Es un proyecto controla el funcionamiento de un auto de cuatro ruedas por medio de una Raspberry Pi 4 corriendo ROS. 
+ROS Video Car es un proyecto que controla el funcionamiento de un auto de juguete mediante ROS. El auto posee una placa Raspberry Pi 4 corriendo Ubuntu Server y los nodos ROS correspondientes, a su vez, la electrónica del auto es controlada por una placa Arduino Uno conectada al RPi4 por puerto serie (USB). 
 
-Además se agregó la posibilidad de reproducir video por medio de OpenCV.
+El auto, además, posee una webcam 640x480 USB conectada al RPi4, dándole la capaidad de transmitir video en vivo por medio de OpenCV a la PC.
 
 El master (_roscore_) corre en una PC con Ubuntu. Además controla el movimiento del auto y recibe el stream de video de la webcam del auto.
 
@@ -45,7 +45,7 @@ La PC y la RPi4 se comunican por medio de una red WiFi.
 
 ## Ejecutando las pruebas ⚙️
 
-Se realizó la prueba del auto corriendo
+El auto funciona según lo esperado. Sin embargo, se agregarán funcionalidades que mejoren la precisión del movimiento.
 
 
 ## Links ⌨️
@@ -59,7 +59,7 @@ _Herramientas utilizadas para crear el proyecto_
 * [OpenCV](https://docs.opencv.org/master/d6/d00/tutorial_py_root.html) - Librería para Visión por Ordenador.
 * [PyGame](https://www.pygame.org/news) - Librería para Python para la creación de videojuegos 
 
-## Cosas a corregir y a futuro 📋
+## A futuro📋
 
 * Agregar la electrónica y software necesarios para la odometría.
 * Agregar la electrónica necesaria y software para la detección de obstáculos.
