@@ -44,8 +44,8 @@ La PC y la RPi4 se comunican por medio de una red WiFi.
 ```
 ### Launch files
 Se crearon dos archivos para lanzar el proyecto desde la PC:
-*```local.launch``` : lanza los nodos locales.
-*```rpi.launch```  : lanza los nodos remotos.
+* ```local.launch``` : lanza los nodos locales.
+* ```rpi.launch```  : lanza los nodos remotos.
 
 Mediante el comando ```$ roslaunch rpi.launch local.launch```  
 
