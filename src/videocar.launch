@@ -1,0 +1,5 @@
+<launch>
+    <node name="ctrl_arduino_node.py" pkg="vcar" type="ctrl_arduino_node" />    
+    <node name="publisher_node.py" pkg="vcar" type="publisher_node" />    
+    <node name="subscriber_node.py" pkg="vcar" type="subscriber_node" />    
+</launch>

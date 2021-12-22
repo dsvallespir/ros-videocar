@@ -1,0 +1,8 @@
+prefix=/home/ubuntu/Sources/videocar/install
+
+Name: vcar
+Description: Description of vcar
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: rospy std_msgs
